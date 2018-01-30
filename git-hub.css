@@ -1,0 +1,14 @@
+body{
+	display: flex;
+	max-width: 85%;
+}
+
+nav ul{
+	display: flex;
+
+}
+
+section{
+	display: flex;
+}
+
