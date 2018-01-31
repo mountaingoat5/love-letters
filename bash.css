@@ -1,3 +1,10 @@
+/*font-family: 'Sacramento', cursive;
+font-family: 'Alegreya', serif;
+*/
+
+
+
+
 body{
 
 	margin-left: 8%;
@@ -5,11 +12,34 @@ body{
 	display: flex;
 	justify-content: center;
 	flex-flow: column wrap;
+	background-color: rgb(255,182,193);
+	
 }
 
 h1{
 	text-align: center;
-	margin-top: 5%;
+	margin: 0 auto;
+	margin-top: 10%;
+	background-color: rgba(255, 255, 255, .5);
+	font-family: 'Sacramento', cursive;
+	font-size: 400%;
+	color: navy;
+	border-radius: 5px;
+	max-width: 85%;
+}
+
+nav{
+	background-color: white;
+	font-family: 'Sacramento', cursive;
+	color: navy;
+	font-size: 150%;
+}
+
+nav a{
+	text-decoration: none;
+	/*color: white
+	background-color: navy;
+	border-radius: 5px;*/
 }
 
 ul{
@@ -18,10 +48,19 @@ ul{
 	list-style-type: none;
 }
 
+
+
+
+main{
+	background-color: rgba(255, 255, 255, .5);
+}
+
+
 h2{
 	text-align: center;
 	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-bottom: 5%;	
+
 }
 
 
@@ -29,6 +68,13 @@ p{
 
 	text-align: center;
 	margin-bottom: 2%;
-	margin-right: 10%;
-	margin-left: 10%;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+img{
+	position: absolute;
+	left: 10;
+	right: 0;
+	z-index: -3;
 }
