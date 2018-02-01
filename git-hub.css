@@ -1,14 +1,128 @@
+/*font-family: 'Megrim', cursive;
+font-family: 'Raleway', sans-serif;*/
+
+
+
 body{
+	margin: 0 auto;
+	margin: 3%;
 	display: flex;
+	flex-direction:column;
+	background-color: #C2AD90;
+	background-image: url(git-flow.png);
+
+}
+
+main{
+	margin: 0 auto;
 	max-width: 85%;
+	flex-flow: row wrap;
+/*	margin-top: -10%;*/
+
+	
+
 }
 
-nav ul{
+nav{
+/*	margin-left: 50%;*/
+	font-family: 'Megrim', cursive;
+	/*display: flex;
+	justify-content: flex-end;*/
+	
+	background-color: #1F2128;
+	list-style-type: none;
+	border-color: #C0B051;
+	border-style: dashed;
+	border-radius: 6px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+ul{
 	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+nav a{
+	text-decoration: none; 
+	/*margin: 10%;*/
+	font-size: 150%;
+	color: #A84039
+ }
+
+a:hover{
+	background-color: #C0B051;
+}
+a:active{
+	color: #C0B051;
+	background-color: #1F2128;
+}
+
+
+
+h1{
+	margin: 0 auto;
+	margin: 10%;
+	margin-top: 0%;
+	margin-bottom: 5%;
+	text-align: center;
+	font-family: 'Megrim', cursive;
+	font-size: 400%;
+	color: #A84039;
+	background-color: #1F2128;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	border-color: #1F2128;
+	border-style: dashed;
+	border-radius: 6px;
+
 
 }
 
-section{
-	display: flex;
+h2{
+	font-family: 'Megrim', cursive;
+	font-size: 200%;
+	color: #A84039;
+	background-color: #1F2128;
+	padding: 2%;
+	margin-right: 48%;
+	margin-left: 3%;
+	border-color: #C0B051;
+	border-style: dashed;
+	border-radius: 6px;
+
+	
+
+}
+
+p{
+/*	max-width: 40%;*/
+	font-size: 115%;
+	font-family: 'Raleway', sans-serif;
+	line-height: 115%
+	color: #1F2128;
+	
+	padding-right: 10%;
+	padding-bottom: 6%;
+	padding-top: 2%;
+	padding-left: 2%; 
+	margin-left: 3%;
+
+
+}
+
+
+.ppp{
+	background-color: #C0B051;
+	border-color: #1F2128;
+	border-style: dashed;
+	border-radius: 6px;
+	margin-left: 3%;
+	margin-right: 48%;
+	text-align: center;	
+
 }
 
