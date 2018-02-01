@@ -1,15 +1,120 @@
+/*font-family: 'Nothing You Could Do', cursive;
+font-family: 'Spirax', cursive;*/
+
 body{
 	display: flex;
+	flex-flow: column wrap;
+	margin: 0 auto;
+	background-image: url(letter.jpeg);	
+}
+
+
+
+.start{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+/*	align-content: center;*/
+	align-items: center;
+
+	background-color: rgba(238,204,179,.7);
+	padding-bottom: 3%;
+	margin-left: 7%;
+	margin-right: 7%;
+
+	font-family: 'Spirax', cursive;
+
+}
+
+h1{
+	text-align: center;
+
+	font-size: 400%;
+		color: #825149;
+}
+
+nav{
+
+}
+
+ul{
+	display: flex;
+	flex-flow: column;
+
+
+	list-style-type: none;	
+}
+
+
+ul li{
+	text-align: center;
+
+	padding: 5%;
+}
+
+a:link{
+	text-decoration:none;
+	font-size: 200%;
+	color: #83907E;
+
+}
+
+
+a:hover{
+	color: #A83850;
+
+}
+
+a:visited{
+	
+	background-color: #7A6D50;
+}
+
+
+
+main{
+	margin: auto 0;
 	max-width: 85%;
 
+
+
+
 }
 
-nav ul{
+h2{
+	margin: auto 0;
+	text-align:center;
+	font-size: 200%;
+	color: #825149;
+
+}
+
+.paras{
 	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	margin: 7%;
+
+	background-color: rgba(238,204,179,.7);
+	padding-bottom: 3%;
+	margin-left: 7%;
+	margin-right: 7%;	
+
+	font-family: 'Nothing You Could Do', cursive;
+
+
 
 }
-	
-section{
-	display: flex;
-}
 
+p{
+/*	max-width: 40%;*/
+	margin: 2%;
+	max-height: 20%;
+	padding-left: 4%;
+	padding-right: 4%;
+
+	text-align: center;
+	font-size: 150%;
+
+	color:#582830;
+}
