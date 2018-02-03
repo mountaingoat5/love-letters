@@ -5,7 +5,7 @@ body{
 	display: flex;
 	flex-flow: column wrap;
 	margin: 0 auto;
-	background-image: url(letter.jpeg);	
+	background-image: url(../img/rose.svg);	
 }
 
 
@@ -21,6 +21,7 @@ body{
 	padding-bottom: 3%;
 	margin-left: 7%;
 	margin-right: 7%;
+	margin-top: 7%;
 
 	font-family: 'Spirax', cursive;
 
@@ -34,12 +35,18 @@ h1{
 }
 
 nav{
-
+	max-width: 100%;
+	font-family: 'Nothing You Could Do', cursive;
 }
 
 ul{
 	display: flex;
 	flex-flow: column;
+	justify-content: space-around;
+	align-items: : center;
+
+
+	margin: 0 auto;
 
 
 	list-style-type: none;	
@@ -48,14 +55,19 @@ ul{
 
 ul li{
 	text-align: center;
+	
 
-	padding: 5%;
+
+	
+
 }
 
 a:link{
 	text-decoration:none;
 	font-size: 200%;
 	color: #83907E;
+
+
 
 }
 
@@ -86,6 +98,8 @@ h2{
 	text-align:center;
 	font-size: 200%;
 	color: #825149;
+
+	font-family: 'Nothing You Could Do', cursive;
 
 }
 

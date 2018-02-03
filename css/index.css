@@ -1,0 +1,52 @@
+
+
+
+
+
+body{
+	font-family: 'Codystar', cursive;	
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+
+}
+
+h1{
+	color: navy;
+	font-size: 400%;
+}
+
+
+li{
+	margin-bottom:10%;
+}
+
+a:link{
+	text-decoration: none;
+	font-size: 200%;
+
+}
+
+a:active{
+	color: red;
+	background-color: white;
+}
+
+a:hover{
+	font-size: 250%;
+	color: pink;
+	background-color: navy;
+}
+
+a:visited{
+	color: purple;
+}
+
+ul{
+	list-style-type: none;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+

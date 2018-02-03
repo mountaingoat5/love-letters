@@ -13,7 +13,7 @@ body{
 	justify-content: center;
 	flex-flow: column wrap;
 	background-color: rgb(255,182,193);
-	background-image: url("back.gif");
+	background-image: url("../img/hearts.svg");
 	
 }
 
